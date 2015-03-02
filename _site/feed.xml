@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+	<channel>
+		<title>vinniefm.com</title>
+		<description>Project documentation and Portfolio by Vince Mease</description>
+		<link>http://vinniefm.com</link>
+		<atom:link href="http://vinniefm.com/feed.xml" rel="self" type="application/rss+xml" />
+		
+			<item>
+				<title>Portfolio Release</title>
+				<description>&lt;p&gt;After a long time of plodding along, doing a bit here and a bit there,
+I’ve finally got the beginnings of a &lt;a href=&quot;http://vinniefm.com/portfolio/&quot;&gt;portfolio&lt;/a&gt; ready for viewing here.
+It’s only demonstrating two of my projects from Cars.com right and I’ll
+have another example application from Echo posted shortly. &lt;/p&gt;
+
+&lt;p&gt;Given that most of my career has been spent designing SaaS and
+enterprise applications, it’s difficult to put up a portfolio. One
+aspect of that difficulty is in sharing secure applications. All
+examples posted currently are pretty straightforward and obvious though so I
+don’t think I’m giving away the farm, so to speak.&lt;/p&gt;
+
+&lt;p&gt;The second difficulty lies in the search for minimum viable product (MVP) and the nature of &lt;em&gt;UX Design&lt;/em&gt;, particularly in the enterprise space. As will be seen when I post the Echo portfolio piece, it’s a pretty standard quoting workflow. Could we have designed the application as a single page vs. the multi-page, search then result, workflow? Certainly. It would be optimal, in fact. But, as always, other concerns in software development must be balanced. While discussing the single page app concept with the engineering team, it was determined that the release timeline would be greatly extended. That trade-off was unacceptable to the business and thus we ended up with the design we have. That’s not an excuse. It just is what it is. Pragmatism is key as is dedication to the backlog. So, single page application is coming up but not yet designed and implemented.&lt;/p&gt;
+
+&lt;p&gt;So, next up here, add the Echo portfolio piece and post the official
+resume here. Oh, and sadly, with the release of the portfolio, I’ve got
+all kinds of bugs in my CSS impacting site responsiveness so
+unfortunately viewing any of this site on a phone sucks at the moment.
+Fixes coming for that in short order.&lt;/p&gt;
+</description>
+				<pubDate>Mon, 21 Jul 2014 12:51:52 -0500</pubDate>
+				<link>http://vinniefm.com/2014/07/21/portfolio-release/</link>
+				<guid isPermaLink="true">http://vinniefm.com/2014/07/21/portfolio-release/</guid>
+			</item>
+		
+			<item>
+				<title>progress</title>
+				<description>&lt;p&gt;Well, it’s obviously been slow going as evidenced by the lack of
+commitment on display with nothing said since February. Having a kid
+will do that I guess. I’ve also had the pleasure recently of spending
+more time with my 12 year old daughter. We’ve been working through the
+HTML/CSS Code Academy class, which has been a lot of fun!&lt;/p&gt;
+
+&lt;p&gt;I am also happy to report that significant progress has been made
+towards posting some portfolio work along with local HTML and PDF
+versions of my resume. Links coming soon.&lt;/p&gt;
+
+</description>
+				<pubDate>Fri, 18 Jul 2014 01:35:48 -0500</pubDate>
+				<link>http://vinniefm.com/2014/07/18/progres/</link>
+				<guid isPermaLink="true">http://vinniefm.com/2014/07/18/progres/</guid>
+			</item>
+		
+			<item>
+				<title>Paul Hibbitts UX/IxD Presentations</title>
+				<description>&lt;p&gt;Came across a number of presentations by Paul Hibbitts today while doing research of my own for a presentation on the UX/Product Design process for a newly forming team at Echo.&lt;/p&gt;
+
+&lt;p&gt;Particularly well done were:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://slid.es/paulhibbitts/cmpt-363-133-the-process-of-ixd-design&quot;&gt;The Process of IxD&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;http://slid.es/paulhibbitts/cmpt-363-133-introduction-to-user-experience-design&quot;&gt;Intro to UX Design&lt;/a&gt; (more of a 101 course)&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+				<pubDate>Sat, 08 Feb 2014 19:40:35 -0600</pubDate>
+				<link>http://vinniefm.com/2014/02/08/paul-hibbitts-ux-slash-ixd-presentations/</link>
+				<guid isPermaLink="true">http://vinniefm.com/2014/02/08/paul-hibbitts-ux-slash-ixd-presentations/</guid>
+			</item>
+		
+			<item>
+				<title>Fitbit</title>
+				<description>&lt;p&gt;Got a Fitbit yesterday for my birthday. Should be interesting to see what sort of data and insight it provides. Even more importantly, motivation. To that end, I also signed up with &lt;a href=&quot;http://www.fitbolt.com&quot;&gt;Fitbolt.com&lt;/a&gt;. It’s funny that to work in the UX field, even having a pretty decent ergonomic chair, we kill ourselves by sitting for 8 hours at a stretch.&lt;/p&gt;
+
+&lt;p&gt;The 2014 plan is to close all email apps and possibly instant messenger at the top of each hour and focus on the task list. At 55 minutes in, check emails on my phone while walking around the office for 5 minutes. If an email needs to be replied to, that’s a task for the next hour whilst sitting at a full keyboard, or it’s a face-to-face discussion during the walk around. Rinse and repeat at the top of each hour.&lt;/p&gt;
+
+</description>
+				<pubDate>Fri, 07 Feb 2014 19:37:26 -0600</pubDate>
+				<link>http://vinniefm.com/2014/02/07/fitbit/</link>
+				<guid isPermaLink="true">http://vinniefm.com/2014/02/07/fitbit/</guid>
+			</item>
+		
+			<item>
+				<title>Open Street Maps</title>
+				<description>&lt;p&gt;Brief history on the &lt;a href=&quot;http://stevecoast.com/2014/01/30/its-time-to-make-openstreetmap-your-only-street-map/&quot;&gt;Open Stree Map (OSM) project&lt;/a&gt; and good thoughts on why it’s important. Maps are important and their ownership is too. Happy to say that I’m involved in the early stages of design and implementation of an OSM project and thus far, our first prototype app has been a sucess. More to come.&lt;/p&gt;
+
+</description>
+				<pubDate>Fri, 07 Feb 2014 19:35:25 -0600</pubDate>
+				<link>http://vinniefm.com/2014/02/07/open-street-maps/</link>
+				<guid isPermaLink="true">http://vinniefm.com/2014/02/07/open-street-maps/</guid>
+			</item>
+		
+			<item>
+				<title>UX Crash Course</title>
+				<description>&lt;p&gt;I haven’t gotten around to reviewing all of the posts in &lt;a href=&quot;http://thehipperelement.com/post/75476711614/ux-crash-course-31-fundamentals&quot;&gt;UX Crash Course: 31 Fundamentals&lt;/a&gt; but the brief scan I did this afternoon looks like it will be a pretty good and worthwhile read for UX novices and those looking to get a taste of the breadth of the practice.&lt;/p&gt;
+
+</description>
+				<pubDate>Fri, 07 Feb 2014 19:33:37 -0600</pubDate>
+				<link>http://vinniefm.com/2014/02/07/ux-crash-course/</link>
+				<guid isPermaLink="true">http://vinniefm.com/2014/02/07/ux-crash-course/</guid>
+			</item>
+		
+			<item>
+				<title>Here we go again</title>
+				<description>&lt;p&gt;I made my first foray into this with Blogger and Blogspot back in 2001. I was a newly minted Business Analyst that, hindsight being what it is, wouldn’t know a requiremnt if it hit him in the head. Regardless, all things tech were cool, and blogging, after years of manually updating static HTML pages, was the latest and greatest thing. 2001 was a big year though. 9/11 was followed 6 days later by the birth of my daughter. In addition to talking about blogging, I had a lot of joy to share and angry politics to spew. Ah, the arrogance of youth. So important.&lt;/p&gt;
+
+&lt;p&gt;A problem though was that I didn’t really enjoy writing that much. After the initial excitement of the new platform and the emotion of those two events wore off, I didn’t have much to say. New in my career, I had no expertise that I felt was worth sharing, and the random trivialities of daily life didn’t seem worth the effort. I did like to tinker though so I quickly moved on to the more customizable, open system that was MoveableType at the time. Then Wordpress. Now Jekyll and Octopress.&lt;/p&gt;
+
+&lt;p&gt;Goals for 2014 including more writing, way more reading, and a whole lot less TV. This site should be a consistent outlet for that. We’ll see how it goes. I’m at a point in my career where I feel like I have some expertise worth sharing, I know the workings of most platforms to the extent that I need to know them and can thus just let them be without tinkering (or breaking!), and the birth of my second daughter is just around the corner. There’s a certain full-circle feel to this.&lt;/p&gt;
+
+&lt;p&gt;There’s plenty to do around here to clean things up and get them customized though so I guess there’s still tinkering to do. For now, everything is running on a mostly uncustomized version of Octopress with the Octostrap3 theme serving up pretty generic Bootstrap 3. All of that proved pretty trivial to setup and get going once you get comfortable with Ruby and the various Gem dependencies. Reading the Octopress Setup page carefully got me going in less than an hour. Subsequent theme installation and testing took another hour more. &lt;/p&gt;
+
+</description>
+				<pubDate>Wed, 05 Feb 2014 19:19:36 -0600</pubDate>
+				<link>http://vinniefm.com/2014/02/05/here-we-go-again/</link>
+				<guid isPermaLink="true">http://vinniefm.com/2014/02/05/here-we-go-again/</guid>
+			</item>
+		
+	</channel>
+</rss>

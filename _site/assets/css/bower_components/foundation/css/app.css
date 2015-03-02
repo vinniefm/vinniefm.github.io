@@ -1,0 +1,50 @@
+body {
+    background-color: #f8f8f8;
+}
+h2 { 
+    font-family: "Roboto", sans-serif;
+}
+.post-content > p {
+    font-family: 'Roboto Slab';
+    font-weight: 300;
+    font-size: 1.1rem;
+}
+.post:first-child {
+    margin-top: 40px;
+}
+.post:last-child {
+    margin-bottom: 40px;
+}
+.right {
+    margin: 40px 0 40px 0;
+}
+.component {
+    padding-left: 40px;
+}
+.right > .component h2 {
+    font-family: "Roboto", sans-serif;
+    font-size: 1.10rem;
+    font-weight: 100;
+    line-height: 2.5rem;
+    color: #fefefe;
+    background-color: #008CBA;
+    padding: 10px 20px 10px 20px;
+    border-left: 1px #008CBA solid;
+}
+.component-content {
+    font-family: "Roboto Slab";
+    padding: 10px 20px 0 20px;
+    border-left: 1px #008CBA solid;
+    border-right: 1px #008CBA solid;
+    border-bottom: 1px #008CBA solid;
+    margin-top: -10px;
+}
+.component-content p {
+    font-weight: 300;
+    color: #666;
+}
+#footer {
+    padding: 20px 10px 5px 10px;
+    background-color: #e0e0e0;
+    border-top: 1px #aaa solid;
+}
