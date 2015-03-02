@@ -6,8 +6,10 @@ published: true
 comments: true
 categories: 
 ---
+UPDATE: As of this writing, 3/2/2015, the Portfolio, Resume, and Bio pages are all being rebuilt as I transition from Octopress to a generic Jekyll build.
+
 After a long time of plodding along, doing a bit here and a bit there,
-I've finally got the beginnings of a <a href="{{ site.url }}/portfolio/">portfolio</a> ready for viewing here.
+I've finally got the beginnings of a <!--<a href="{{ site.url }}/portfolio/"> -->portfolio <!--</a>--> ready for viewing here.
 It's only demonstrating two of my projects from Cars.com right and I'll
 have another example application from Echo posted shortly. 
 

@@ -8,8 +8,10 @@
 		
 			<item>
 				<title>Portfolio Release</title>
-				<description>&lt;p&gt;After a long time of plodding along, doing a bit here and a bit there,
-I’ve finally got the beginnings of a &lt;a href=&quot;http://vinniefm.com/portfolio/&quot;&gt;portfolio&lt;/a&gt; ready for viewing here.
+				<description>&lt;p&gt;UPDATE: As of this writing, 3/2/2015, the Portfolio, Resume, and Bio pages are all being rebuilt as I transition from Octopress to a generic Jekyll build.&lt;/p&gt;
+
+&lt;p&gt;After a long time of plodding along, doing a bit here and a bit there,
+I’ve finally got the beginnings of a &lt;!--&lt;a href=&quot;http://vinniefm.com/portfolio/&quot;&gt; --&gt;portfolio &lt;!--&lt;/a&gt;--&gt; ready for viewing here.
 It’s only demonstrating two of my projects from Cars.com right and I’ll
 have another example application from Echo posted shortly. &lt;/p&gt;
 

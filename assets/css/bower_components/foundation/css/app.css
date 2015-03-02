@@ -18,8 +18,14 @@ h2 {
 .right {
     margin: 40px 0 40px 0;
 }
+
+
 .component {
     padding-left: 40px;
+    margin-top: -10px;
+}
+.component:first-child {
+    margin-top: 10px;
 }
 .right > .component h2 {
     font-family: "Roboto", sans-serif;
@@ -43,8 +49,29 @@ h2 {
     font-weight: 300;
     color: #666;
 }
+.component-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0 0 10px 0;
+    font-weight: 300;
+}
+.component-content ul > li:hover {
+    font-weight: 500;
+}
+.component-content li i {
+    vertical-align: middle;
+    padding: 5px 5px 5px 0;
+}
 #footer {
     padding: 20px 10px 5px 10px;
     background-color: #e0e0e0;
     border-top: 1px #aaa solid;
+}
+
+
+@media (min-width: 320px) {
+
+    .component {
+        padding-left: 0;
+    }
 }
