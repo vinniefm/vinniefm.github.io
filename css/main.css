@@ -13,7 +13,7 @@ dl, dd, ol, ul, figure {
 body {
   font: 400 16px/1.5 "Helvetica Neue", Helvetica, Arial, sans-serif;
   color: #111;
-  background-color: #fdfdfd;
+  background-color: #fefefe;
   -webkit-text-size-adjust: 100%;
   -webkit-font-feature-settings: "kern" 1;
   -moz-font-feature-settings: "kern" 1;
@@ -160,7 +160,7 @@ pre {
  * Site header
  */
 .site-header {
-  background-color: #fefefe;
+  background-color: #fff;
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
@@ -227,7 +227,7 @@ pre {
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
-  background-color: #fefefe; }
+  background-color: #fff; }
 
 .footer-heading {
   font-size: 18px;
