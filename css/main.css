@@ -160,6 +160,7 @@ pre {
  * Site header
  */
 .site-header {
+  background-color: #fefefe;
   border-top: 5px solid #424242;
   border-bottom: 1px solid #e8e8e8;
   min-height: 56px;
@@ -226,7 +227,7 @@ pre {
 .site-footer {
   border-top: 1px solid #e8e8e8;
   padding: 30px 0;
-  background-color: #eceeef; }
+  background-color: #fefefe; }
 
 .footer-heading {
   font-size: 18px;
@@ -2407,7 +2408,7 @@ input[type="button"].btn-block {
 .img-thumbnail {
   padding: 0.25rem;
   line-height: 1.5;
-  background-color: #fff;
+  background-color: #f1f1f1;
   border: 1px solid #ddd;
   border-radius: 0.25rem;
   transition: all .2s ease-in-out;
@@ -3678,7 +3679,7 @@ button.list-group-item-danger {
   .nav-tabs .nav-item.open .nav-link:focus,
   .nav-tabs .nav-item.open .nav-link:hover {
     color: #55595c;
-    background-color: #fff;
+    background-color: #f1f1f1;
     border-color: #ddd #ddd transparent; }
 
 .nav-pills::after {
@@ -4444,7 +4445,7 @@ body {
   font-size: 1rem;
   line-height: 1.5;
   color: #373a3c;
-  background-color: #fff; }
+  background-color: #f1f1f1; }
 
 [tabindex="-1"]:focus {
   outline: none !important; }
@@ -4627,7 +4628,7 @@ output {
   .table tbody + tbody {
     border-top: 2px solid #eceeef; }
   .table .table {
-    background-color: #fff; }
+    background-color: #f1f1f1; }
 
 .table-sm th,
 .table-sm td {
