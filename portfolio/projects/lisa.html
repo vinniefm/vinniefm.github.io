@@ -10,12 +10,13 @@
 ">
 
   <link rel="stylesheet" href="/css/main.css">
+  <!-- <link rel="stylesheet" href="/css/vfm-overrides.css"> -->
   <link rel="canonical" href="http://vinniefm.com/portfolio/projects/lisa.html">
   <link rel="alternate" type="application/rss+xml" title="vinniefm.com" href="http://vinniefm.com/feed.xml">
   <script src="https://use.fontawesome.com/b3e9b636f0.js"></script>
 </head>
 
-<body>
+<body class="flex">
 
 <header class="site-header">
 
@@ -45,17 +46,19 @@
                 
               
                 
+              
+                
                   
                     <li class="nav-item"><a class="nav-link" href="/portfolio/">Product & UX Portfolio</a></li>
                   
                 
               
                 
-              
-                
                   
                     <li class="nav-item"><a class="nav-link" href="/blog/">Blog</a></li>
                   
+                
+              
                 
               
                 
@@ -99,198 +102,135 @@ https://thinkshout.com/blog/2014/12/creating-dynamic-menus-in-jekyll/
 
       
       <article class="post">
-
-  <header class="post-header">
-    <h1 class="post-title">LISA App</h1>
-  </header>
-
   <div class="post-content">
-    <article class="post">
+    
 
-  <!-- <header class="post-header">
-    <h1 class="post-title">LISA App - Product & UX Portfolio - vinniefm.com</h1>
-  </header> -->
+<div class="project-container">
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        
+          <li data-target="carousel-example-generic" data-slide-to="0" class="active" ></li>
+        
+          <li data-target="carousel-example-generic" data-slide-to="1" ></li>
+        
+          <li data-target="carousel-example-generic" data-slide-to="2" ></li>
+        
+          <li data-target="carousel-example-generic" data-slide-to="3" ></li>
+        
+      </ol>
+      <div class="carousel-inner" role="listbox">
+        
+            <div class="carousel-item active">
+              <img src="../../assets/images/portfolio/project-screens/lisa/app-intro-screens.png">
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="../../assets/images/portfolio/project-screens/lisa/app-workflow.png">
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="../../assets/images/portfolio/project-screens/lisa/app-workflow-zoom.png">
+            </div>
+        
+            <div class="carousel-item ">
+              <img src="../../assets/images/portfolio/project-screens/lisa/screen-samples.png">
+            </div>
+        
+      </div>
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="icon-prev" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="icon-next" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+    </div>
 
-  <div class="post-content">
-  <div class="col-md-6 col-lg-4">
-<div class="card">
-  <img class="card-img-top" src="../../assets/images/portfolio/logos/lisa-logo.png" alt="Card image cap">
-  <div class="card-block">
-  <article class="post">
 
-  <!-- <header class="post-header">
-    <h1 class="post-title"></h1>
-  </header> -->
-
-<!--   <div class="post-content">
-  <div class="col-md-6 col-lg-4">
-<div class="card">
-  <img class="card-img-top" src="" alt="Card image cap">
-  <div class="card-block"> -->
-  <div class="attributes">
-  <div class="attribute">
-    <div class="col-xs-6 type">
-      Platform(s)
+  <div class="project">
+    <div class="description"> 
+      <h2>Project Description</h2>
+      <p>The LISA App platform's mission is to connect the consumers of personal services with the providers of those services. Beta launching in the greater Chicago-land area with a focus on beauty and wellness services (hair, skin, nails, massage), the platform facilitated nearly one thousand appointments during the first two operational quarters (Q1/Q2 2016).
+Work on the project commenced 02/2015. I lead the founding partners and engineering team through product discovery, usability testing on various prototypes, and finally the release of our iOS and Android apps, backed Node.js API and Postgresql database.
+<h4>Core tools</h4>
+<ul> <li>Customer journey maps</li> <li>Wireframes (Sketch)</li> <li>Prototypes (Invisionapp.com)</li> <li>User story maps (Storiesonboard.com and Jira)</li> <li>Functional application flows (Omnigraffle and yEd diagrams)</li> </ul></p>
+      <h3>Problems</h3>
+      <p><p>When analyzing various business metrics of the beauty and wellness industry, it quickly becomes obvious that it is broken. This is particularly apparent when looking at the consumer/service provider relationship. Conservative estimates suggest annual revenue of $60+ billion on haircuts and massage alone. Yet, two significant problems exist that we can solve with the LISA platform.</p>
+<h4>Service provider income</h4>
+<p>While service providers own the loyalty in the consumer relationship, they typically leave 60% or more of their transaction revenue to the salon or spa. This results in providers working multiple jobs in excess of full time employment while only achieving approximately $23,000/year in income on average. That's not far from the poverty line.</p>
+<h4>Market share</h4>
+<p>Shockingly, the top 50 players control a mere 15% of the annual revenue. This indicates significant inefficiencies exist and thus opportunities to exploit as any given brand, often decades old, has a difficult time executing on plans to consolidate market power and achieve economies of scale in the digital/mobile age. </p>
+<p>For the consumer, while a plethora of choice initially appears to be a benefit, the business and brand churn symptomatic of this environment make it difficult to build trust and maintain a growing relationship over time with developing brands. </p>
+</p> 
+      <!-- <h3>Process</h3>
+      <p></p>  -->
+      <h3>Solutions</h3>
+      <p><p>The LISA App platform solves the above problems by creating an open marketplace bringing consumers and providers together. </p>
+<h4>Service provider interface</h4>
+<p>Service providers build a simple profile using the native mobile app consisting of their service menu, prices, schedule, studio location(s), photo/portfolio gallery, reviews, and ratings from previous clients. </p>
+<p>Pricing and scheduling are particularly important. Unlike other services in the beauty and wellness space, and even when compared to other "gig economy" stalwarts like Uber, LISA does not dictate price nor work hours. This affords the company two main benefits. First, we live up to our mission of being an open platform by creating a environment in which the most competitive providers rise to the top. Second, it maintains the necessary legal and financial relationships required to ensure that providers are considered independent contractors on the platform, not employees.</p>
+<h4>Consumer interface</h4>
+<p>For the consumer, LISA App functions as an intuitive search engine for the supported personal services. The consumer simply selects whether they want Hair, Skin, Massage, or Nail services, the date and time they would like the appointment, and whether they want a typical salon experience or if the provider to travel to them (home, office, hotel, etc). Once the provider is selected, scheduling, appointment tracking, and payment all occur in the app as provider and consumer interact during the appointment life cycle. </p></p> 
     </div>
-    <div class="col-xs-6 value">
-      
+    <div class="meta">
+      <h2>Meta</h2>
+      <div class="meta-table">
+        <div class="table-row">
+            <div class="column"><strong>Role:</strong></div>
+            <div class="column">Chief Product Officer</div>
+        </div>
+        <div class="table-row">
+            <div class="column"><strong>Platforms:</strong></div>
+            <div class="column">Android, iOS, Node.js</div>
+        </div>
+        
+        <div class="table-row">
+            <div class="column"><strong>APIs:</strong></div>
+            <div class="column wrap-ok">Stripe.com, Localytics, Instabug, Instagram </div>
+        </div>
+        
+        <div class="table-row">
+            <div class="column"><strong>Duration:</strong></div>
+            <div class="column">02/2015 - present</div>
+        </div>
+        <div class="table-row">
+            <div class="column"><strong>Web:</strong></div>
+            <div class="column"><a target="_blank" href="http://lisaapp.com">lisaapp.com</a></div>
+        </div>
+        
+        <div class="table-row">
+            <div class="column"><strong>iTunes:</strong></div>
+            <div class="column"><a target="_blank" href="https://itunes.apple.com/us/app/lisa-look-feel-good-on-your/id1053357848?mt=8">App Store</a></div>
+        </div>
+        
+        
+        <div class="table-row">
+            <div class="column"><strong>Google:</strong></div>
+            <div class="column"><a target="_blank" href="https://play.google.com/store/apps/details?id=com.lisaapp.app&hl=en">Android Play</a></div>
+        </div>
+        
+      </div>
     </div>
-    </div>
-    <div class="attribute">
-    <div class="col-xs-6 type">
-      Project duration
-    </div>
-    <div class="col-xs-6 value">
-       - 
-    </div>
-    </div>
-    <div class="attribute">
-    <div class="col-xs-6 type">
-      Deployment
-    </div>
-    <div class="col-xs-6 value">
-      
-    </div>
-    </div>
-    <div class="attribute">
-    <div class="col-xs-6 type">
-      Client relationship
-    </div>
-    <div class="col-xs-6 value">
-      
-    </div>
-    </div>
-    <div class="attribute">
-    <div class="col-xs-6 type">
-      Corporate website
-    </div>
-    <div class="col-xs-6 value">
-      <a href="" target="_blank"></a>
-    </div>
-    </div>
-    <div class="attribute">
-    <div class="col-xs-6 type">
-      iPhone
-    </div>
-    <div class="col-xs-6 value">
-      <a href="" target="_blank">App Store</a>
-    </div>
-    </div>
-    </div>
-    <!-- <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Button</a>
   </div>
+
 </div>
-</div>
-
-  </div> -->
-
-
-
-</article>
-
 
 
 
 <!-- 
-Product & UX Portfolio
-  - process presentation
-  - artifacts/
-    - portfolio-artifact-1
-      ... p.title
-      ... p.short_title = p.title | slice
-    - portfolio-artifact-n
-Blog
-  - blog entries by
-    - date
-    - category
-    - etc
-Bio
+  US households:                    116 million
+  Average haircuts/household/year:  8
+  Average haircut cost:             $40
+  Households w/massage multiplier:  .25
+  Massages/year:                    12
+  Average massage cost:             80
+  - - - - - - - - - - - - - - - - - - - - - - - - -
+  Total revenue:                    $64,960,000,000
 
- -->
-<!--   <div class="attributes">
-  <div class="attribute">
-    <div class="col-xs-6 type">
-      Platform(s)
-    </div>
-    <div class="col-xs-6 value">
-      Android, iOS, nodejs
-    </div>
-    </div>
-    <div class="attribute">
-    <div class="col-xs-6 type">
-      Project duration
-    </div>
-    <div class="col-xs-6 value">
-      02/2015 - present
-    </div>
-    </div>
-    <div class="attribute">
-    <div class="col-xs-6 type">
-      Deployment
-    </div>
-    <div class="col-xs-6 value">
-      Production
-    </div>
-    </div>
-    <div class="attribute">
-    <div class="col-xs-6 type">
-      Client relationship
-    </div>
-    <div class="col-xs-6 value">
-      Chief Product Officer
-    </div>
-    </div>
-    <div class="attribute">
-    <div class="col-xs-6 type">
-      Corporate website
-    </div>
-    <div class="col-xs-6 value">
-      <a href="http://lisaapp.com" target="_blank">lisaapp.com</a>
-    </div>
-    </div>
-    <div class="attribute">
-    <div class="col-xs-6 type">
-      iPhone
-    </div>
-    <div class="col-xs-6 value">
-      <a href="https://itunes.apple.com/us/app/lisa-look-feel-good-on-your/id1053357848?mt=8" target="_blank">App Store</a>
-    </div>
-    </div>
-    </div> -->
-    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-    <a href="#" class="btn btn-primary">Button</a>
+  (116000000*8*40)+((116000000*.25)*12*80) 
+-->
   </div>
-</div>
-</div>
-
-  </div>
-
-
-
-</article>
-
-
-
-
-<!-- 
-Product & UX Portfolio
-  - process presentation
-  - artifacts/
-    - portfolio-artifact-1
-      ... page.title
-      ... page.short_title = page.title | slice
-    - portfolio-artifact-n
-Blog
-  - blog entries by
-    - date
-    - category
-    - etc
-Bio
-
- -->
-  </div>
-
 </article>
 
     </div>
