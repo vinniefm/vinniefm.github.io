@@ -5394,7 +5394,7 @@ a.bg-danger:focus, a.bg-danger:hover {
 
 @media (min-width: 768px) {
   .core-competencies,
-  ul.lisa.apis {
+  ul.apis {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row; }
