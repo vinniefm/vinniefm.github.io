@@ -5392,6 +5392,22 @@ a.bg-danger:focus, a.bg-danger:hover {
 .core-competencies ul:last-of-type {
   margin-top: -15px; }
 
+@media (max-width: 767px) {
+  .resume ul.contacts {
+    font-size: .75rem; }
+
+  .gig-sub {
+    font-size: .8rem; }
+
+  .resume .location {
+    margin-top: -19px; }
+
+  .resume .tenure {
+    font-size: .8rem;
+    margin-top: -44px; }
+
+  .post-content h4 {
+    font-size: .85rem; } }
 @media (min-width: 768px) {
   .core-competencies,
   ul.apis {
