@@ -5342,10 +5342,10 @@ a.bg-danger:focus, a.bg-danger:hover {
 .btn-primary:visited {
   color: #f8f8f8; }
 
-div.project {
-  display: flex;
-  flex-direction: column-reverse; }
-
+@media (max-width: 750px) {
+  div.project {
+    display: flex;
+    flex-direction: column-reverse; } }
 /* Start Resume page overrides */
 .pdf-download {
   float: right;
